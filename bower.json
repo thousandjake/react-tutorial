@@ -1,0 +1,20 @@
+{
+  "name": "react-app",
+  "description": "wokring through the reactjs tutorial",
+  "main": "index.js",
+  "authors": [
+    "jake thousand"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/thousandjake/react-tutorial",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "^15.1.0"
+  }
+}

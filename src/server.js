@@ -2,6 +2,9 @@ var express = require('express');
 var fs = require('fs');
 var app = express();
 
+app.use(express.static('scripts'));
+app.use(express.static('bower_components'));
+
 app.get('/*', function (req, res, next){
   res.setHeader('Last-Modified', (new Date()).toUTCString());
   next();
